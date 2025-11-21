@@ -1,0 +1,90 @@
+/* --------------- 自定义 Prism 高亮主题（复制到 App.css） ---------------- */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #e5dededd;      /* 默认变量/文本 */
+  font-family: Consolas, Monaco, "Courier New", monospace;
+  background: #1e1e1e !important;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 注释 */
+.token.comment {
+  color: #55C7A1;
+}
+
+/* 关键字 */
+.token.keyword {
+  color: #CF8E6D;
+}
+
+/* 类型（class, module 等） */
+.token.class-name,
+.token.builtin {
+  color: #bbc2c8;
+}
+
+/* 字符串 */
+.token.string {
+  color: #6AAB73;
+}
+
+/* 数字 */
+.token.number {
+  color: #2AACB8;
+}
+
+/* 函数名 */
+.token.function {
+  color: #8888C6;
+}
+
+/* 变量 */
+.token.variable {
+  color: #e5dededd;
+}
+
+/* 属性 / 类成员 */
+.token.property {
+  color: #b31f1fdd;
+}
+
+/* 正则表达式 */
+.token.regex {
+  color: #6AAB73;
+}
+
+/* 命名空间 */
+.token.namespace {
+  color: #e5dededd;
+}
+
+/* 括号加粗 */
+.token.punctuation {
+  color: #e5dededd;
+  font-weight: bold;
+}
+
+/* 函数参数 */
+.token.parameter {
+  color: #b31f1fdd;
+}
+
+/* 特殊字符转义（字符串中的 \n, \t） */
+.token.escape {
+  color: #CF8E6D;
+}
+
+.highlight {
+  background: #444;
+  color: #fffb00;
+  padding: 3px;
+  border-radius: 4px;
+}
+mark.highlight-block {
+  background: rgba(255, 215, 0, 0.15);
+  border-left: 4px solid #fffb00;
+  padding-left: 4px;
+  display: block;
+}
