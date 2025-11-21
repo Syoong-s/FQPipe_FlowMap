@@ -88,3 +88,9 @@ mark.highlight-block {
   padding-left: 4px;
   display: block;
 }
+.func-link {
+  color: #69afff;              /* 文本颜色变蓝 */
+  text-decoration: underline;
+  text-decoration-color: #69afff;  /* 下划线也用同样的蓝色（兼容性更好） */
+  cursor: pointer;
+}
